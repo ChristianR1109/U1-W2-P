@@ -142,20 +142,62 @@ for (let i = 0; i < num; i++) {
   let temp = charactersArray[i];
 
   switch (temp) {
+    case "a":
+      pos2 = 1;
+      break;
+    case "b":
+      pos2 = 2;
+      break;
+    case "c":
+      pos2 = 3;
+      break;
+    case "d":
+      pos2 = 4;
+      break;
+    case "e":
+      pos2 = 5;
+      break;
+    case "f":
+      pos2 = 6;
+      break;
     case "g":
       pos2 = 7;
       break;
+    case "h":
+      pos2 = 8;
+      break;
+    case "i":
+      pos2 = 9;
+      break;
+    case "l":
+      pos2 = 10;
+      break;
+    case "m":
+      pos2 = 11;
+      break;
     case "n":
       pos2 = 12;
+    case "o":
+      pos2 = 13;
+    case "p":
+      pos2 = 14;
+    case "q":
+      pos2 = 15;
+    case "r":
+      pos2 = 16;
+    case "s":
+      pos2 = 17;
+    case "t":
+      pos2 = 18;
       break;
     case "u":
       pos2 = 19;
       break;
+    case "v":
+      pos2 = 120;
+      break;
     case "z":
       pos2 = 21;
-      break;
-    case "d":
-      pos2 = 4;
       break;
   }
   newArray[i] = pos2;
